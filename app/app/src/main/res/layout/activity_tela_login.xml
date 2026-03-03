@@ -16,22 +16,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
+    <TextView android:id="@+id/txt_bv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="40sp"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="#F67608"
+        android:textSize="35sp"
+        android:textStyle="italic"/>
+
+
     <EditText android:id="@+id/edt_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/bg_arredondado"
-        android:backgroundTint="#6179FF"
+        android:backgroundTint="#E4E1E1"
         android:drawableStart="@drawable/icon_email"
         android:drawablePadding="15dp"
         android:hint="@string/insira_seu_email"
         android:inputType="textEmailAddress"
         android:padding="10dp"
         android:textColor="#FFFFFF"
-        android:textColorHint="#FBFDFD"
+        android:textColorHint="#090909"
         android:textStyle="italic"
         app:cornerRadius="15dp"/>
+
 
     <EditText android:id="@+id/edt_senha"
         android:layout_width="match_parent"
@@ -39,14 +52,14 @@
         android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_arredondado"
-        android:backgroundTint="#6179FF"
+        android:backgroundTint="#E4E1E1"
         android:drawableStart="@drawable/icon_senha"
         android:drawablePadding="15dp"
         android:hint="@string/insira_sua_senha"
         android:inputType="textPassword"
         android:padding="10dp"
-        android:textColor="#FFFFFF"
-        android:textColorHint="#FBFDFD"
+        android:textColor="#0D0C0C"
+        android:textColorHint="#090808"
         android:textStyle="italic"
         app:cornerRadius="15dp"/>
 
