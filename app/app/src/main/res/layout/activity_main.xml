@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo_reda"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView android:id="@+id/txt_bv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/bem_vindo"
+        android:textColor="#D9AB00"
+        android:textSize="35sp"
+        android:textStyle="italic"/>
+
+    <Button android:id="@+id/btn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#6179FF"
+        android:gravity="center"
+        android:text="@string/login"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBFDFD"
+        android:textStyle="italic"
+        app:cornerRadius="15dp"/>
+
+    <Button android:id="@+id/btn_Cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#6179FF"
+        android:gravity="center"
+        android:text="@string/cadastro"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FBFDFD"
+        android:textStyle="italic"
+        app:cornerRadius="15dp"/>
+
+    <TextView android:id="@+id/txt_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:text="@string/seja_reda_na_maior_plataforma_de_reda_o_do_brasil_que_vai_ajudar_voc_estudante_a_ingressar_em_uma_universidade"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:padding="15dp"
+        android:textColor="#A6A6A6"
+        android:textSize="15sp"
+        android:textStyle="italic"/>
+
+</LinearLayout>

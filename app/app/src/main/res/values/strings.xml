@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tela Projeto</string>
+    <string name="insira_seu_email">Insira seu email</string>
+    <string name="insira_sua_senha">Insira sua senha</string>
+    <string name="bem_vindo">Bem Vindo!</string>
+    <string name="login">login</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="seja_reda_na_maior_plataforma_de_reda_o_do_brasil_que_vai_ajudar_voc_estudante_a_ingressar_em_uma_universidade">Seja REDA+! \na maior plataforma de redação do Brasil, que vai ajudar você, estudante, a ingressar em uma universidade!</string>
+    <string name="login_com_google">Login com google</string>
+    <string name="outras_op_es">----------------------------- Outras opções --------------------------</string>
+</resources>
